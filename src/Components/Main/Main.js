@@ -5,7 +5,7 @@ import Home from '../Home/Home';
 import ContentWindow from '../ContentWindow/ContentWindow';
 import Util from '../../Util/Util';
 
-// Main component acts as a container for the components which will display tabulated data in the window
+/**  Main component acts as a container for the components which will display the navigation list on the left and the tabulated data in the right */
 
 class Main extends React.Component {
     constructor(props) {
@@ -35,6 +35,7 @@ class Main extends React.Component {
         this.getSimData();
     }
 
+    
     async getSimData() {
         const response = await fetch('./sims.json',{
             headers : { 

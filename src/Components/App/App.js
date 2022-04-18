@@ -6,7 +6,7 @@ import Header from '../Header/Header';
 import Navigation from '../Navigation/Navigation';
 import Footer from '../Footer/Footer';
 
-
+/** Main App, container for Navigation, Header, Main and Footer. Most of the work happens in Main */
 
 class App extends React.Component {
   constructor(props) {

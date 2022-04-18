@@ -4,7 +4,7 @@ import logo from './pictures/logo.svg';
 import settings from './pictures/settings.png';
 import profile from './pictures/profile.png';
 
-// Header provides a space at the top and to show profile and settings icons
+/** Header provides a space at the top and to show profile and settings icons. Split into left, center and right divs for logo title and settings icons */
 
 class Header extends React.Component {
 
