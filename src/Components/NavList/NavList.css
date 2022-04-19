@@ -1,31 +1,24 @@
 .NavList {
   margin: 10px;
+  margin-right: 0px;
   overflow-x: scroll;
-  max-height: 500px;
+  min-height: 400px;
+  max-height: 800px;
   font-size: small;
+  background-color: rgb(255, 255, 255);
 }
 
 .NavList ul {
   list-style-type: none;
   margin: 0px;
-  padding: 0px;
-  background-color: rgb(255, 255, 255);
-    
+  padding: 0px;    
 }
 
 .NavList li {
-    /*border-top: 1px solid rgb(192, 192, 192);*/
     margin: 0px;
     padding: 5px;
     display: block;
     text-align: left;
-}
-
-.NavList li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
 }
 
 .NavList li.option:hover {
@@ -34,11 +27,13 @@
 }
 
 .NavList li#selected {
-  background-color: rgb(236, 235, 235);
+  background-color: rgb(96, 151, 233);
   color: white;
 }
 
 .NavList p {
   text-align: left;
   border-bottom: 1px solid rgb(218, 218, 218);
+  font-weight: bold;
+  font-size: 1.5em;
 }
