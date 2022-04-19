@@ -12,16 +12,16 @@ a user is a staff member at a specific customer who has a sim card allocated to 
 
 ### Skills: I have tried to demonstrate a range of skills, including:
 
-HTML
-Responsive
-CSS
-Javascript
-React
-Stateless/Stateful
-Async
-JSX
-Json
-Git
+HTML  
+Responsive  
+CSS  
+Javascript  
+React  
+Stateless/Stateful  
+Async  
+JSX  
+Json  
+Git  
 
 #### Please browse the Navigation menu on the left
 
