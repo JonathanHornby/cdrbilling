@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+## Welcome to my interview project - React application
+This is a React recreation of a PHP/MySQL application I wrote in 2009 for the company I was working for at the time. I have written this from scratch in the evenings from 14th to 18th April 2022 for the purpose of my interview.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Context of the application: 
+The company supplies post paid mobile sim cards to businesses who assign the sim cards to users to make work phone calls. The company charges for all phone calls made from the sim cards on a per second basis. The company needs to invoice customers each month for the correct amount based on the phone calls made by it's users for the month.
 
-## Available Scripts
+Each business customer needs a breakdown of the total spend of each of it's users for each period, and needs to be able to view reports and data for analysis of calling patterns and to pick up on any abuse by it's users.
 
-In the project directory, you can run:
+A customer is a business which pays for it's users to make phone calls.
 
-### `npm start`
+a user is a staff member at a specific customer who has a sim card allocated to them and makes phone calls from it.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Skills: I have tried to demonstrate a range of skills, including:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+HTML
+Responsive
+CSS
+Javascript
+React
+Stateless/Stateful
+Async
+JSX
+Json
+Git
 
-### `npm test`
+#### Please browse the Navigation menu on the left
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Due to only having a few days to get this done, I have used local json files to store data, rather than using an external database and implmenting an API. There are also certain features which I couldnt get to complete, but which I have left in place unfinished as they are required for context of the application as a whole. EG. Certain links might point to # instead of actually doing something
